@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TilesGround
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b3b3ce7d2a8d9d74198678bc7d58c432, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8363c61066f58f448873487795395f09, type: 3}
+  - {fileID: 21300000, guid: 2a4a2660fc874aa44bd222a8882c1d00, type: 3}
+  - {fileID: 21300000, guid: de6ce4d5a2261e54cab9e292266037cb, type: 3}
+  - {fileID: 21300000, guid: 28b6855768cef5441a04f2465196ccca, type: 3}
+  - {fileID: 21300000, guid: 4abcc9a88bdc0464d8482468a137cea8, type: 3}
+  - {fileID: 21300000, guid: fe5d3609edc3c1f449593f21d8f9fd02, type: 3}
+  - {fileID: 21300000, guid: d19b1a39ca0976342bb45dcfc5b2c114, type: 3}
+  - {fileID: 21300000, guid: 3b8609b978f21af40a0d6538d1856605, type: 3}
+  - {fileID: 21300000, guid: 6b11115a7d6133e458d7824cab59a1a6, type: 3}
+  - {fileID: 21300000, guid: bb88d6faa3232ca4d827ad9a31694f1a, type: 3}
+  - {fileID: 21300000, guid: 9516e83b125633a4bac557f4130dc28c, type: 3}
+  - {fileID: 21300000, guid: f48fd8bc3575502448074b608142b95e, type: 3}
+  - {fileID: 21300000, guid: 45d8beccdfbd97b40b549612aeedc35e, type: 3}
+  - {fileID: 21300000, guid: 7fb18bfc569313049a7aacadf7fae36e, type: 3}
+  - {fileID: 21300000, guid: aac20dfc4892216499c5aa879e26d037, type: 3}
+  - {fileID: 21300000, guid: 6cfc2a7e35c57904cb6024236eb75602, type: 3}
+  - {fileID: 21300000, guid: df717e6f65b039b4d9fac32550a906c9, type: 3}
+  - {fileID: 21300000, guid: e5d867afc736f824badc8a4b5fc7fc4e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 3
+  - 9
+  - 14
+  - 1
+  - 2
+  - 8
+  - 4
+  - 6
+  - 10
+  - 17
+  - 5
+  - 13
+  - 18
+  - 15
+  - 11
+  - 7
+  - 12
+  - 16
+  m_RenderDataMap: {}
+  m_Tag: TilesGround
+  m_IsVariant: 0
