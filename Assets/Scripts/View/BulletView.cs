@@ -12,9 +12,6 @@ public sealed class BulletView : MonoBehaviour
     [SerializeField]
     private CircleCollider2D _collider2D;
 
-    [SerializeField]
-    private float _demage;
-
     [Header("Settings")]
 
     private float _radius = 0.3f;
@@ -31,11 +28,14 @@ public sealed class BulletView : MonoBehaviour
     public Rigidbody2D Rigidbody2D  => _rigidbody2D;
     public CircleCollider2D Collider2D => _collider2D;
 
-    public float Demage  => _demage;
-
     public void SetVisible(bool visible)
     {
         _spriteRenderer.enabled = visible;
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        SetVisible(false);
+        gameObject.SetActive(false);
     }
 
 }

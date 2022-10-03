@@ -7,5 +7,7 @@
         jump,
         hurt,
         dead,
-        coin
+        coin,
+        attack
+
     }

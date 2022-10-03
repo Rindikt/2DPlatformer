@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public sealed class ControllerAnimator
 {
@@ -17,7 +16,7 @@ public sealed class ControllerAnimator
     {
         if (!Mathf.Approximately(derection, 0))
         {
-            Ran();
+            Run();
 
             _charecterView.SpriteRenderer.flipX = derection < 0;
         }
@@ -33,7 +32,7 @@ public sealed class ControllerAnimator
         _spriteAnimator.StartAnimation(_charecterView.SpriteRenderer, Track.idle, true, 3.5f);
     }
 
-    public void Ran()
+    public void Run()
     {
         _spriteAnimator.StartAnimation(_charecterView.SpriteRenderer, Track.run, true, 10f);
     }
@@ -45,5 +44,10 @@ public sealed class ControllerAnimator
     public void Dead()
     {
         _spriteAnimator.StartAnimation(_charecterView.SpriteRenderer, Track.dead, true, 3.5f);
+    }
+
+    public void Attack()
+    {
+        _spriteAnimator.StartAnimation(_charecterView.SpriteRenderer, Track.attack, true, 3f);
     }
 }

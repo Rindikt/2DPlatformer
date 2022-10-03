@@ -58,10 +58,9 @@ public sealed class CharacterView : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.TryGetComponent(out BulletView bullet))
+        if (collision.gameObject.TryGetComponent(out Weapon weapon))
         {
-            Debug.Log("pipi");
-            OnGetDamage?.Invoke(bullet.Demage);
+            OnGetDamage?.Invoke(weapon.Demage);
         }
         
     }

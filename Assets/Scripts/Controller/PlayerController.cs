@@ -16,7 +16,6 @@ public sealed class PlayerController : IFixedUpdate
         _inputController._inputJump.OnClickJump += _moveTransform.Jump;
         _health = new Health(charecterView.MaxHealPoint);
         _charecterView.OnGetDamage += _health.GetDamage;
-
     }
 
     public void FixedUpdate()

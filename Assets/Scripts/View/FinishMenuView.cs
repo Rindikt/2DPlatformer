@@ -18,5 +18,5 @@ public sealed class FinishMenuView : MonoBehaviour
 
     public Button Exit => _exit;
 
-    public TextMeshProUGUI Score { get => _score; set => _score = value; }
+    public TextMeshProUGUI Score => _score;
 }

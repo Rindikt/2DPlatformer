@@ -46,6 +46,6 @@ public sealed class CoinsManager : IDisposable
     }
     private void Score(int score)
     {
-        _score._score.text = ($"Coins: " + score);
+        _score.Score.text = ($"Coins: " + score);
     }
 }

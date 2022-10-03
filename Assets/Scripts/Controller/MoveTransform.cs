@@ -5,9 +5,10 @@ public sealed class MoveTransform : IFixedUpdate
     private readonly CharacterView _characterView;
     private ContactsPoller _contactsPoller;
     private ControllerAnimator _cintrollerAnimator;
+    private PlayerAttack _playerAttack;
     private bool _ifDoubleJimp;
 
-    public MoveTransform(CharacterView characterView, ControllerAnimator cintrollerAnimator/*, SpriteAnimation spriteAnimation*/)
+    public MoveTransform(CharacterView characterView, ControllerAnimator cintrollerAnimator)
     {
         _characterView = characterView;
         _cintrollerAnimator = cintrollerAnimator;

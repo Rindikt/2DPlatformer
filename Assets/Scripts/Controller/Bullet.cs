@@ -12,6 +12,7 @@ public sealed class Bullet
 
     public void Throw(Vector3 position, Vector3 velocity)
     {
+        _bulletView.gameObject.SetActive(true);
         _bulletView.SetVisible(false);
         _bulletView.transform.position = position;
 

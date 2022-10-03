@@ -57,3 +57,12 @@ MonoBehaviour:
     - {fileID: 339024789, guid: 11324bfd4e46d53448fa0102e0e3c50a, type: 3}
     - {fileID: 1833407554, guid: 11324bfd4e46d53448fa0102e0e3c50a, type: 3}
     - {fileID: 581753186, guid: 11324bfd4e46d53448fa0102e0e3c50a, type: 3}
+  - Track: 6
+    Sprites:
+    - {fileID: 21300000, guid: 5ba5f33a84a26814ea58a8fb7bfd455f, type: 3}
+    - {fileID: 21300000, guid: 8c5d5e282d6192544aad76e21c05ad58, type: 3}
+    - {fileID: 21300000, guid: e9c18b256398c17499e152fb966ef99b, type: 3}
+    - {fileID: 21300000, guid: ec7128c154964624694006883ecfd5f0, type: 3}
+    - {fileID: 21300000, guid: 534384d64cfb866468d1425bced2707a, type: 3}
+    - {fileID: 21300000, guid: 17aea7f0ad656654683361982cd5f093, type: 3}
+    - {fileID: 21300000, guid: 6af3dc3cb5779ed4a9c5da34a0d29ad1, type: 3}

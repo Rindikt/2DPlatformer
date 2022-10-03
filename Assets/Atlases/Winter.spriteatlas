@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Winter
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: ab40ce9eaee9fa44889fc01ac2bad170, type: 3}
+    - {fileID: 102900000, guid: 223ab017fcb9c1f4682c4242053b1283, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 2123c890a205d94449fa90d1c57fa25b, type: 3}
+  - {fileID: 21300000, guid: f4629ad0608de7d468c85ab4f404135d, type: 3}
+  - {fileID: 21300000, guid: e8f952e06706fc349b71b07743c88c5e, type: 3}
+  - {fileID: 21300000, guid: 5d20e8425e06c56449a4f0a65162c363, type: 3}
+  - {fileID: 21300000, guid: 32e55c8241fcdaf43804894519b2c17f, type: 3}
+  - {fileID: 21300000, guid: 0d2f9893807afa94e81bcdcadf21d6e3, type: 3}
+  - {fileID: 21300000, guid: cb9e47a3c0f51d94888992376d1a1ea9, type: 3}
+  - {fileID: 21300000, guid: 136ea8342ccebc94ab61bda0d55b1df3, type: 3}
+  - {fileID: 21300000, guid: bc8432a4efc3f274c9732693f279c7c4, type: 3}
+  - {fileID: 21300000, guid: e67b430510006f545b3e2513fe594595, type: 3}
+  - {fileID: 21300000, guid: daa050752e9262d44960beffc581cd1d, type: 3}
+  - {fileID: 21300000, guid: 98d8ffe56871952418ecc06ac1be61f8, type: 3}
+  - {fileID: 21300000, guid: 10118026440aff24ab44d4594a09c5b3, type: 3}
+  - {fileID: 21300000, guid: b77dca7698a91d24aba8269e80630c0a, type: 3}
+  - {fileID: 21300000, guid: e12feb9644c32084a8ab42a2c35902e3, type: 3}
+  - {fileID: 21300000, guid: ebb4bee6189944945853177aaf25ab4f, type: 3}
+  - {fileID: 21300000, guid: 476244f6f98f54d43a904e7a8715efa3, type: 3}
+  - {fileID: 21300000, guid: ff14bda7b75cc0449a33fe0ef4ce89cd, type: 3}
+  - {fileID: 21300000, guid: 84a6f4b713cf5b24cbb6aaf25a7b6b15, type: 3}
+  - {fileID: 21300000, guid: 0ad66978fac23f44f91cc03be0800bba, type: 3}
+  - {fileID: 21300000, guid: 41e0eae838c59ec469618e662624f3fb, type: 3}
+  - {fileID: 21300000, guid: 042ec77b5f484a5449c907fe518eafd6, type: 3}
+  - {fileID: 21300000, guid: 3afd706c1eebe0e438e64670162d95cd, type: 3}
+  - {fileID: 21300000, guid: 8e27039c30fbdf044b31a73faa5a7ed2, type: 3}
+  - {fileID: 21300000, guid: e62832cdb65085846a2ddda78f4f7fc8, type: 3}
+  - {fileID: 21300000, guid: 2b5d157e18c49814ba6242a8690369c8, type: 3}
+  - {fileID: 21300000, guid: 988a8fce1fa687a4788021426f538f04, type: 3}
+  - {fileID: 21300000, guid: cd09f8deb9e5d4542a4e574189d032b2, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 11
+  - 4
+  - 17
+  - 12
+  - 8
+  - Crystal
+  - 5
+  - SnowMan
+  - Tree_2
+  - 2
+  - 13
+  - 18
+  - Igloo
+  - 16
+  - Stone
+  - 6
+  - 14
+  - IceBox
+  - 7
+  - 10
+  - Sign_2
+  - Tree_1
+  - 3
+  - 1
+  - 15
+  - Crate
+  - 9
+  - Sign_1
+  m_RenderDataMap: {}
+  m_Tag: Winter
+  m_IsVariant: 0

@@ -4,6 +4,7 @@ using UnityEngine;
 public sealed class ScoreView : MonoBehaviour
 {
     [SerializeField]
-    public TextMeshProUGUI _score;
+    private TextMeshProUGUI _score;
 
+    public TextMeshProUGUI Score { get => _score; set => _score = value; }
 }
