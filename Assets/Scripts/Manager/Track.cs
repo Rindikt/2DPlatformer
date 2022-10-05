@@ -8,6 +8,13 @@
         hurt,
         dead,
         coin,
-        attack
+        attack,
+        trollSummerWalk,
+        trollSummerRun,
+        trollSummerAttack,
+        trollSummerDead,
+        batFly,
+        batDead,
+        batAttack
 
-    }
+}

@@ -37,6 +37,12 @@ public sealed class Root : MonoBehaviour
     [SerializeField]
     private List<LiftView> _liftView;
 
+    [SerializeField]
+    private List<EnemyView> _enemyFly;
+
+    [SerializeField]
+    private EnemyTrollView _troll;
+
     private CameraController _cameraController;
     private SpriteAnimation _spriteAnimator;
     private PlayerController playerController;
@@ -60,7 +66,7 @@ public sealed class Root : MonoBehaviour
         _cameraController = new CameraController(_camera, _charecterView.transform);
         _coinsManager = new CoinsManager(_coinViews, _spriteAnimator, _scoreView);
         _levelCompleteManager = new LevelCompleteManager(_startPosition.position, _charecterView, _deadZone, _finishZona, finishMenuView, _coinsManager, playerController._health);
-        _enemyController = new EnemyController(_balistaView, _charecterView.gameObject.transform);
+        _enemyController = new EnemyController(_balistaView, _charecterView.gameObject.transform, _enemyFly,_spriteAnimator, _troll);
         _liftManager = new LiftManager(_liftView);
 
     }
@@ -76,6 +82,7 @@ public sealed class Root : MonoBehaviour
 
     private void FixedUpdate()
     {
+        _enemyController.FixedUpdate();
         playerController.FixedUpdate();
         _liftManager.FixedUpdate();
     }

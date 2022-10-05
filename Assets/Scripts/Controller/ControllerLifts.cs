@@ -1,10 +1,12 @@
-﻿using System;
-using UnityEngine;
-internal class ControllerLifts : IFixedUpdate
+﻿using UnityEngine;
+
+internal sealed class ControllerLifts : IFixedUpdate
 {
     private LiftView _viewLift;
     private SliderJoint2D _sliderJoint;
     private float _speedLift;
+    private const float SpeedUp = 0.5f;
+    private const float SpeedDown = -0.5f;
 
     public ControllerLifts(LiftView viewLift)
     {
@@ -29,11 +31,11 @@ internal class ControllerLifts : IFixedUpdate
     {
         if (collision.collider.GetComponent<LiftDownView>())
         {
-            _speedLift = -0.5f;
+            _speedLift = SpeedDown;
         }
         else if (collision.collider.GetComponent<LiftTopView>())
         {
-            _speedLift = 0.5f;
+            _speedLift = SpeedUp;
         }
     }
 }
