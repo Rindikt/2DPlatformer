@@ -27,21 +27,24 @@ public sealed class EnemyController : IExecute, IFixedUpdate
 
     public void Execute()
     {
-        foreach (BalistaController balistaController in _balistaControllers)
+        if (_balistaControllers!=null)
         {
-            balistaController.Execute();
+            foreach (BalistaController balistaController in _balistaControllers)
+            {
+                balistaController.Execute();
+            }
         }
     }
 
     public void FixedUpdate()
     {
-        foreach (var item in _enemyFlyViews)
+        if (_enemyFlyViews!=null)
         {
-            item.FixedUpdate();
+            foreach (var item in _enemyFlyViews)
+            {
+                item.FixedUpdate();
+            }
         }
-
-        _trollController.FixedUpdate();
-
-
+            _trollController.FixedUpdate();
     }
 }
